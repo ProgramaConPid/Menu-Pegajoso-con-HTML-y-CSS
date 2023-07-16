@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    height: auto;
+    width: 100%;
+}
+
+.header__bg {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+    background-image: url(img/imagen-paisaje.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.header__bg .title {
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.200);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+}
+
+.header__bg h1 {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.flex-items {
+    width: 80%;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.flex-items > div {
+    background-color: rgba(128, 128, 128, 0.435);
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
